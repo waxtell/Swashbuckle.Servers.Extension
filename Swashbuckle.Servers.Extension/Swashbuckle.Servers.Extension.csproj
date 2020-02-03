@@ -8,7 +8,8 @@
     <RepositoryUrl>https://github.com/waxtell/Swashbuckle.Servers.Extension.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>OAS Swashbuckle Servers</PackageTags>
-    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1- Initial release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
