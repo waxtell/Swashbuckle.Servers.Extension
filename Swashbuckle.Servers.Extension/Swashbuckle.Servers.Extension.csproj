@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Will Axtell</Authors>
+    <Description>Include a collection of servers in your OAS</Description>
+    <PackageProjectUrl>https://github.com/waxtell/Swashbuckle.Servers.Extension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/waxtell/Swashbuckle.Servers.Extension.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>OAS Swashbuckle Servers</PackageTags>
+    <PackageReleaseNotes>1.0.0- Initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
