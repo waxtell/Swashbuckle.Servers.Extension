@@ -1,7 +1,7 @@
 # Swashbuckle.Servers.Extension
 Specify the collection of servers for your API
 
-(Servers collection will be included when using Swashbuckle.AspNetCore.Cli)
+(Servers collection **will** be included when using Swashbuckle.AspNetCore.Cli)
 
 Configuring the servers at startup:
 
@@ -12,7 +12,7 @@ Configuring the servers at startup:
                 (
                     new List<OpenApiServer>
                     {
-                        new OpenApiServer { Url = "http://localhost:46322" },
+                        new OpenApiServer { Url = "http://localhost:5000" },
                         new OpenApiServer { Url = "https://www.yourcustomdomain.com" }
                     }
                 );
