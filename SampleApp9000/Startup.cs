@@ -40,7 +40,7 @@ namespace SampleApp9000
                 (
                     new List<OpenApiServer>
                     {
-                        new OpenApiServer { Url = "http://localhost:46322" },
+                        new OpenApiServer { Url = "http://localhost:5000" },
                         new OpenApiServer { Url = "https://www.yourcustomdomain.com" }
                     }
                 );
