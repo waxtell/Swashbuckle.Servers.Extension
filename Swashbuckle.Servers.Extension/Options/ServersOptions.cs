@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 
 // ReSharper disable once CheckNamespace
 namespace Swashbuckle.Servers.Extension

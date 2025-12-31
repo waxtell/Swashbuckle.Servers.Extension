@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Authors>Will Axtell</Authors>
     <Description>Include a collection of servers in your OAS</Description>
     <PackageProjectUrl>https://github.com/waxtell/Swashbuckle.Servers.Extension</PackageProjectUrl>
@@ -9,15 +9,16 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>OAS Swashbuckle Servers</PackageTags>
     <PackageReleaseNotes>
+        1.1.0 - Upgrade to .NET 8.0 and Swashbuckle.AspNetCore v10.1.0
         1.0.3 - Add WithVariable extension
-	    1.0.2 - Now supports multiple, concatenating invocations
-		1.0.1 - Initial release
+	      1.0.2 - Now supports multiple, concatenating invocations
+		    1.0.1 - Initial release
     </PackageReleaseNotes>
-    <Version>1.0.3</Version>
+    <VersionPrefix>1.1.0</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
   </ItemGroup>
 
 </Project>
