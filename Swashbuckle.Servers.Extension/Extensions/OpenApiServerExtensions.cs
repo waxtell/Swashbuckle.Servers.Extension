@@ -1,14 +1,18 @@
-﻿using Microsoft.OpenApi.Models;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.OpenApi;
 
-namespace Swashbuckle.Servers.Extension.Extensions
+namespace Swashbuckle.Servers.Extension.Extensions;
+
+public static class OpenApiServerExtensions
 {
-    public static class OpenApiServerExtensions
+    public static OpenApiServer WithVariable(this OpenApiServer server, string key, OpenApiServerVariable value)
     {
-        public static OpenApiServer WithVariable(this OpenApiServer server, string key, OpenApiServerVariable value)
-        {
-            server.Variables.Add(key, value);
+        ArgumentNullException.ThrowIfNull(server);
 
-            return server;
-        }
+        server.Variables ??= new Dictionary<string, OpenApiServerVariable>();
+        server.Variables.Add(key, value);
+
+        return server;
     }
 }
