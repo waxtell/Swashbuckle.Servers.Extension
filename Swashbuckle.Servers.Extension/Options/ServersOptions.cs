@@ -2,10 +2,9 @@
 using Microsoft.OpenApi;
 
 // ReSharper disable once CheckNamespace
-namespace Swashbuckle.Servers.Extension
+namespace Swashbuckle.Servers.Extension;
+
+public class ServersOptions
 {
-    public class ServersOptions
-    {
-        public IEnumerable<OpenApiServer> Servers { get; set; }
-    }
+    public IEnumerable<OpenApiServer> Servers { get; set; }
 }
